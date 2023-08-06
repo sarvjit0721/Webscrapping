@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen
 import logging
+
 pname=input(str("Enter Product Name:"))
 flipcart_url = f"https://www.flipkart.com/search?q={pname}" 
 print(flipcart_url)
